@@ -46,7 +46,7 @@ job('maven_dsl'){
 
     shell('''
 		echo ********* Running the jar ****************
-		java -jar /var/jenkins_home/workspace/maven-dsl/target/my-app-1.0-SNAPSHOT.jar
+		java -jar target/my-app-1.0-SNAPSHOT.jar
 	''')
   }
 
